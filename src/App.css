@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+.scored {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.conceded {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.difference {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.score-btn {
+  background-color: green;
+  color: white;
+}
+
+.concede-btn {
+  background-color: red;
+  color: white;
+}
+
+.reset-btn {
+  background-color: gray;
+  color: white;
+}
